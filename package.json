@@ -1,0 +1,14 @@
+{
+  "name": "newsapi-wrapper",
+  "version": "1.0.0",
+  "description": "A wrapper around the News API (https://newsapi.org/) that exposes a Promise-like interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Bartel <tom@tombartel.me>",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
