@@ -12,7 +12,7 @@ All you will need is an API key that you can get [here](https://newsapi.org/regi
        .setPageSize(25)
        .send()
        .then(response => {
-           console.log('Results: ${response.totalResults}');
+           console.log(`Results: ${response.totalResults}`);
            response.articles.forEach(article => {
                console.log(article.title);
            });
