@@ -1,4 +1,4 @@
-const newsapi = require('newsapi-wrapper');
+const newsapi = require('../lib/newsapi');
 
 newsapi.setDefaults({
     pageSize: 20,
@@ -16,10 +16,9 @@ const receiveResponse = response => {
     }
 };
 
-newsapi.request().send().then(receiveResponse).catch(err => { console.log(err); });
+newsapi.send().then(receiveResponse).catch(err => { console.log(err); });
 
-newsapi.request()
-       .setCountry('ca')
+newsapi.setCountry('ca')
        .setCategory('sports')
        .setPageSize(25)
        .send()
