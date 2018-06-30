@@ -6,7 +6,7 @@ All you will need is an API key that you can get [here](https://newsapi.org/regi
 ## Usage
 
     const newsapi = require('newsapi-wrapper');
-    newsapi.request()
+    newsapi
        .setCountry('ca')
        .setCategory('sports')
        .setPageSize(25)
@@ -53,7 +53,7 @@ Sets multiple default values at once. Takes an object as a parameter. Possible k
 
 Returns an array containing all valid categories, which are: business, entertainment, general, health, science, sports, technology
 
-### request
+### request (deprecated)
 
 Returns an object you can use to build a request, send it, and process the result. Intended to used as a chain of method calls:
 
@@ -61,6 +61,37 @@ Returns an object you can use to build a request, send it, and process the resul
            .setCategory('health')
            .setPageSize(15)
            .send();
+
+request() is now optional and considered deprecated, because you can call all the request methods on newsapi directly. The above example would then look like this:
+
+    newsapi.setCategory('health')
+           .setPageSize(15)
+           .send();
+
+### setCategory
+
+Sets the news category _for the next request_ (not for _all_ subsequent requests). Returns a Request object that can be used to chain other method calls, 
+or to send the request.
+
+    const request = newsapi.setCategory('health');
+    request.setCountry('uk').send();
+
+### setCountry
+
+Sets the country _for the next request_ (not for _all_ subsequent requests). Returns a Request object that can be used to chain other method calls, 
+or to send the request.
+
+### setPageSize
+
+Sets the page size _for the next request_ (not for _all_ subsequent requests). Returns a Request object that can be used to chain other method calls, 
+or to send the request.
+
+### setApiKey
+
+Sets the NewsAPI key _for the next request_ (not for _all_ subsequent requests). Returns a Request object that can be used to chain other method calls, 
+or to send the request.
+
+### send
 
 The call to `send` returns a promise which resolves when the response from the News API is received as intended. Otherwise, it is rejected:
 
