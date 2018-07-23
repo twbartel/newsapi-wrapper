@@ -7,19 +7,20 @@ All you will need is an API key that you can get [here](https://newsapi.org/regi
 
     const newsapi = require('newsapi-wrapper');
     newsapi
-       .setCountry('ca')
-       .setCategory('sports')
-       .setPageSize(25)
-       .send()
-       .then(response => {
-           console.log(`Results: ${response.totalResults}`);
-           response.articles.forEach(article => {
-               console.log(article.title);
-           });
-       })
-       .catch(err => {
-           console.log(err);
-       });
+        .setApiKey('xxxxyyyzzz')
+        .setCountry('ca')
+        .setCategory('sports')
+        .setPageSize(25)
+        .send()
+        .then(response => {
+            console.log(`Results: ${response.totalResults}`);
+            response.articles.forEach(article => {
+                console.log(article.title);
+            });
+        })
+        .catch(err => {
+            console.log(err);
+        });
 
 ## Installation
 
@@ -52,21 +53,6 @@ Sets multiple default values at once. Takes an object as a parameter. Possible k
 ### getCategories
 
 Returns an array containing all valid categories, which are: business, entertainment, general, health, science, sports, technology
-
-### request (deprecated)
-
-Returns an object you can use to build a request, send it, and process the result. Intended to used as a chain of method calls:
-
-    newsapi.request()
-           .setCategory('health')
-           .setPageSize(15)
-           .send();
-
-request() is now optional and considered deprecated, because you can call all the request methods on newsapi directly. The above example would then look like this:
-
-    newsapi.setCategory('health')
-           .setPageSize(15)
-           .send();
 
 ### setCategory
 
@@ -105,4 +91,19 @@ The call to `send` returns a promise which resolves when the response from the N
            .catch(err => {
                console.log(err);
            });
+
+### request (deprecated)
+
+Returns an object you can use to build a request, send it, and process the result. Intended to used as a chain of method calls:
+
+    newsapi.request()
+           .setCategory('health')
+           .setPageSize(15)
+           .send();
+
+request() is now optional and considered deprecated, because you can call all the request methods on newsapi directly. The above example would then look like this:
+
+    newsapi.setCategory('health')
+           .setPageSize(15)
+           .send();
 
