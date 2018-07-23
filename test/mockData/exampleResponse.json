@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 20,
+    "articles": [
+        {
+            "source": { "id": null, "name": "Freep.com" },
+            "author": "Mark Phelan",
+            "title":
+                "It's official: Auto show shifts to June in 2020, plans street festival",
+            "description":
+                "The Detroit Auto Show will move to June 2020, with outdoor events including concerts, driving demos, self-driving cars and tech demos for a festival",
+            "url":
+                "https://www.freep.com/story/money/cars/mark-phelan/2018/07/23/all-new-auto-show-aims-summer-festival-detroit-streets/805043002/",
+            "urlToImage":
+                "https://www.gannett-cdn.com/presto/2018/07/22/PDTF/04373117-b77d-46ed-a99d-4f25e9663169-Cobo.jpg?crop=3839,2159,x0,y0&width=3200&height=1680&fit=bounds",
+            "publishedAt": "2018-07-23T04:02:56Z"
+        },
+        {
+            "source": { "id": "nbc-news", "name": "NBC News" },
+            "author": "Tim Stelloh",
+            "title":
+                "Is it legal to livestream unsuspecting Uber and Lyft passengers?",
+            "description":
+                "Privacy laws are still \"drawn up for the age when we had handheld cassette recorders,\" said Daxton Stewart, a Texas journalism professor.",
+            "url":
+                "https://www.nbcnews.com/tech/tech-news/it-legal-livestream-unsuspecting-uber-lyft-passengers-n893556",
+            "urlToImage":
+                "https://media2.s-nbcnews.com/j/newscms/2018_29/2505601/180722-lyft-uber-se-523p_167812f3ae6ae49a35389e9adc19b31c.1200;630;7;70;5.jpg",
+            "publishedAt": "2018-07-23T02:27:00Z"
+        },
+        {
+            "source": { "id": null, "name": "Nbcnewyork.com" },
+            "author": null,
+            "title":
+                "LIRR Cancels Some Monday Morning Trains After Non-Passenger Train Derails",
+            "description":
+                "The Long Island Rail Road has canceled or partially cancelled eight Monday morning rush-hour trains following a weekend derailment.",
+            "url":
+                "https://www.nbcnewyork.com/news/local/LIRR-Employee-Injured-After-Train-Derails-West-Side-Yard-488845741.html",
+            "urlToImage":
+                "https://media.nbcnewyork.com/images/1200*675/AP_17200853316534.jpg",
+            "publishedAt": "2018-07-23T02:14:40Z"
+        },
+        {
+            "source": { "id": "the-verge", "name": "The Verge" },
+            "author": "Andrew J. Hawkins",
+            "title":
+                "WARR Hyperloop pod hits 284 mph to win SpaceX competition",
+            "description":
+                "WARR Hyperloop, from the Technical University of Munich, took home the top prize — and set a new record — with their self-propelled pod reaching a top speed of 284 mph",
+            "url":
+                "https://www.theverge.com/2018/7/22/17601280/warr-hyperloop-pod-competition-spacex-elon-musk",
+            "urlToImage":
+                "https://cdn.vox-cdn.com/thumbor/8l9UFFs36-im-lkNA6pnsePA4q0=/0x215:3000x1786/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/11728729/35703033683_aca8c3752c_o.jpg",
+            "publishedAt": "2018-07-23T01:38:00Z"
+        },
+        {
+            "source": { "id": null, "name": "Gizmodo.com" },
+            "author": null,
+            "title":
+                "Behold This Disastrously Bad Op-Ed Calling for Amazon to Replace Libraries",
+            "description": null,
+            "url":
+                "https://gizmodo.com/behold-this-disastrously-bad-op-ed-calling-for-amazon-t-1827789820",
+            "urlToImage": null,
+            "publishedAt": "2018-07-23T01:01:05Z"
+        },
+        {
+            "source": { "id": null, "name": "Marketwatch.com" },
+            "author": "Wallace Witkowski",
+            "title":
+                "AMD earnings: How much of Intel's lunch is the chip maker eating?",
+            "description":
+                "Advanced Micro Devices Inc. earnings are expected to benefit from a rare surge in PC sales and what are seen as competitive gains against chip giant Intel Corp., but huge gains in the stock recently are subject to pullbacks given AMD’s traditional volatility …",
+            "url":
+                "https://www.marketwatch.com/story/amd-earnings-how-much-of-intels-lunch-is-the-chip-maker-eating-2018-07-22",
+            "urlToImage":
+                "http://s.marketwatch.com/public/resources/MWimages/MW-GM741_amd_07_ZG_20180718150051.jpg",
+            "publishedAt": "2018-07-23T00:55:00Z"
+        },
+        {
+            "source": { "id": "bloomberg", "name": "Bloomberg" },
+            "author": "Thomas Black",
+            "title":
+                "Atos to Buy Information-Tech Firm Syntel for $3.4 Billion",
+            "description":
+                "Atos SE agreed to buy Syntel Inc. for about $3.4 billion in a cash deal that would give the French computer-services company access to large U.S. financial customers including American Express Co. and State Street Corp.",
+            "url":
+                "https://www.bloomberg.com/news/articles/2018-07-22/atos-agrees-to-buy-information-tech-firm-syntel-for-3-6-billion",
+            "urlToImage":
+                "https://assets.bwbx.io/s3/javelin/public/javelin/images/social-tech-7d25a852b6.jpg",
+            "publishedAt": "2018-07-23T00:21:48Z"
+        },
+        {
+            "source": { "id": null, "name": "Investors.com" },
+            "author": null,
+            "title":
+                "Dow Futures: Alphabet, Just Below A Buy, Leads 4 Big Internet Earnings",
+            "description": null,
+            "url":
+                "https://www.investors.com/market-trend/stock-market-today/dow-futures-alphabet-facebook-amazon-twitter-earnings-due/",
+            "urlToImage": null,
+            "publishedAt": "2018-07-22T23:51:35Z"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": null,
+            "title":
+                "Papa John's Board Votes to Adopt 'Poison Pill' Against Founder",
+            "description": null,
+            "url":
+                "https://www.wsj.com/articles/papa-johns-board-vote-to-adopt-poison-pill-against-founder-1532303394",
+            "urlToImage": null,
+            "publishedAt": "2018-07-22T23:49:00Z"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": null,
+            "title": "Sudden CEO Shift Jolts Fiat Chrysler",
+            "description": null,
+            "url":
+                "https://www.wsj.com/articles/fiat-chryslers-new-chief-aims-to-ride-momentum-of-jeep-success-1532293324",
+            "urlToImage": null,
+            "publishedAt": "2018-07-22T23:43:00Z"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Tim Higgins",
+            "title": "Tesla Asks Suppliers for Cash Back to Help Turn a Profit",
+            "description":
+                "Tesla has asked some suppliers to refund a portion of what the electric-car company has spent previously, an appeal that reflects the auto maker’s urgency to sustain operations during a critical production period.",
+            "url":
+                "https://www.wsj.com/articles/tesla-asks-suppliers-for-cash-back-to-help-turn-a-profit-1532301091",
+            "urlToImage": "https://images.wsj.net/im-17523/social",
+            "publishedAt": "2018-07-22T23:12:46Z"
+        },
+        {
+            "source": { "id": null, "name": "Thedailybeast.com" },
+            "author": "",
+            "title":
+                "Mondelez Recalls 16 Ritz Products Over Salmonella Concerns",
+            "description":
+                "After learning of potentially contaminated whey powder.",
+            "url":
+                "https://www.thedailybeast.com/mondelez-recalls-16-ritz-products-over-salmonella-concerns",
+            "urlToImage":
+                "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1532298577/REUTERS_Michael_Buholzer_agu5vt",
+            "publishedAt": "2018-07-22T22:53:15Z"
+        },
+        {
+            "source": { "id": null, "name": "Timesunion.com" },
+            "author": "Mike Goodwin",
+            "title":
+                "Ex-Home Depot worker says he won't be taking his job back",
+            "description":
+                "ALBANY - Maurice Rucker won't be putting on an orange apron at Home Depot again. \n Rucker says he is passing on Home Depot's offer to give him his job back after news of his termination Tuesday for confronting a racist customer caused a public backlash.",
+            "url":
+                "https://www.timesunion.com/news/article/Fired-after-confronting-racist-customer-ex-Home-13095898.php",
+            "urlToImage":
+                "https://s.hdnux.com/photos/74/10/46/15763882/3/rawImage.jpg",
+            "publishedAt": "2018-07-22T22:51:43Z"
+        },
+        {
+            "source": {
+                "id": "the-times-of-india",
+                "name": "The Times of India"
+            },
+            "author": "Sujit John",
+            "title":
+                "Rohit Prasad: The Indian engineer who is the brain behind Alexa",
+            "description":
+                "US & Canada News News: Alexa, who is your creator? “I was invented by Amazon.” That’s Alexa’s normal response to the question. What she doesn’t reveal is that the person who",
+            "url":
+                "https://timesofindia.indiatimes.com/nri/us-canada-news/rohit-prasad-the-indian-engineer-who-is-the-brain-behind-alexa/articleshow/65096284.cms",
+            "urlToImage":
+                "https://static.toiimg.com/thumb/msid-65099510,width-1070,height-580,imgsize-140654,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+            "publishedAt": "2018-07-22T21:15:33Z"
+        },
+        {
+            "source": { "id": null, "name": "Fool.com" },
+            "author": "Adam Levine-Weinberg",
+            "title":
+                "Boeing Extends Its 2018 Order Lead at the Farnborough Airshow",
+            "description":
+                "Boeing captured more than twice as many net firm orders as Airbus in the first half of 2018, and it's still building on that lead.",
+            "url":
+                "https://www.fool.com/investing/2018/07/22/boeing-extends-its-2018-order-lead-at-the-farnboro.aspx",
+            "urlToImage":
+                "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F488480%2Faerospace-airbus-a330neo-airasia-x-eadsy.jpg&h=630&w=1200&op=resize",
+            "publishedAt": "2018-07-22T15:55:00Z"
+        },
+        {
+            "source": { "id": null, "name": "Inc.com" },
+            "author": "Chris Matyszczyk",
+            "title":
+                "The Startling Things United Airlines Flight Attendants Aren't Allowed to Say to Passengers",
+            "description": "Now why would some of these things be verboten?",
+            "url":
+                "https://www.inc.com/chris-matyszczyk/angry-united-airlines-flight-attendants-reveal-surprising-things-they-arent-allowed-to-say-to-passengers.html",
+            "urlToImage":
+                "https://www.incimages.com/uploaded_files/image/970x450/getty_948280364_2000133320009280119_363851.jpg",
+            "publishedAt": "2018-07-22T11:47:01Z"
+        },
+        {
+            "source": { "id": null, "name": "Fool.com" },
+            "author": "Sean Williams",
+            "title":
+                "The 1 Industry Not Thrilled With Canada's Decision to Legalize Marijuana",
+            "description":
+                "With investors expecting to see lots of green, this industry is dealing with rising costs.",
+            "url":
+                "https://www.fool.com/investing/2018/07/22/the-1-industry-not-thrilled-with-canadas-decision.aspx",
+            "urlToImage":
+                "https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F488157%2Fmarijuana-on-top-of-money-getty.jpg&h=630&w=1200&op=resize",
+            "publishedAt": "2018-07-22T11:21:00Z"
+        },
+        {
+            "source": { "id": "cnbc", "name": "CNBC" },
+            "author": "Paul A. Eisenstein",
+            "title":
+                "Elon Musk denies early orders being canceled for Model 3 – but new demand may be slipping anyway",
+            "description":
+                "A closer look at Elon Musk's recent comments raise a reason for concern: The prospect that new orders may not be keeping up with Tesla's long-awaited production ramp-up.",
+            "url":
+                "https://www.cnbc.com/2018/07/21/new-demand-may-be-slipping-for-tesla-model-3-early-orders.html",
+            "urlToImage":
+                "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/07/03/105308904-1530621057871rts1ub4e.1910x1000.jpg",
+            "publishedAt": "2018-07-21T19:45:09Z"
+        },
+        {
+            "source": { "id": "bloomberg", "name": "Bloomberg" },
+            "author": "Rich Miller",
+            "title":
+                "Trump Lines Up Fed Chairman as Fall Guy If Tax, Trade Moves Sour",
+            "description":
+                "President Donald Trump looks to be lining up Federal Reserve Chairman Jerome Powell to be the fall guy if the president’s trade and tax policies don’t succeed.",
+            "url":
+                "https://www.bloomberg.com/news/articles/2018-07-21/trump-lines-up-powell-as-fall-guy-if-tax-trade-policies-go-bust",
+            "urlToImage":
+                "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ipt2uwJC7z3s/v0/1200x800.jpg",
+            "publishedAt": "2018-07-21T12:43:20Z"
+        },
+        {
+            "source": { "id": "cnn", "name": "CNN" },
+            "author": "Faith Karimi and Debra Goldschmidt, CNN",
+            "title":
+                "These foods linked to ongoing outbreaks might make you sick",
+            "description":
+                "Toss out the Kellogg's Honey Smacks, some Del Monte vegetables, crab meat and fruit trays with pre-cut melon. Dozens are ill in many states across the nation. Check this list before you eat.",
+            "url":
+                "https://www.cnn.com/2018/07/20/health/salmonella-cyclospora-outbreak-food-recall/index.html",
+            "urlToImage":
+                "https://cdn.cnn.com/cnnnext/dam/assets/180608165147-cut-melon-super-tease.jpg",
+            "publishedAt": "2018-07-20T15:29:28Z"
+        }
+    ]
+}
