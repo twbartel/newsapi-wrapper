@@ -1,6 +1,6 @@
 {
   "name": "newsapi-wrapper",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A wrapper around the News API (https://newsapi.org/) that exposes a Promise-like interface",
   "main": "index.js",
   "scripts": {
