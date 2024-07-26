@@ -17,3 +17,9 @@ test('Empty API key leads to exception', () => {
         newsapi.setApiKey(undefined);
     }).toThrow(Error);
 });
+
+test('User agent is always set', () => {
+    const { headers } = newsapi.getRequestOptions();
+    expect(typeof headers['User-Agent']).toEqual('string');
+    expect(headers['User-Agent'] === '').toBeFalsy();
+});
